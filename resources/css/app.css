@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    /* border: 1px solid #000; */
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+    font-optical-sizing: auto;
+    padding: 0;
+  font-optical-sizing: auto;
+}
+
+.balls {
+ transition: all .1s ease;
+}
+
+/* .home_content .title_hero:hover .balls {
+    width: 4rem;
+    height: 4rem;
+} */
+
+    /* .title_hero:hover .balls {
+        mix-blend-mode: difference;
+    } */
+
+
+
+
+.hamburger_menu.active {
+    left: 12.5rem;
+}
+.hamburger_menu.active .line_1 {
+     transform: rotate(45deg);
+     position: absolute;
+     
+}
+.title_habbit {
+    font-optical-sizing: auto;
+}
+.hamburger_menu.active .line_2 {
+     transform: rotate(-45deg);
+}
+
+.sidebar_menu ul li:hover {
+    font-weight: bold;
+}
+
+.sidebar_menu {
+    margin-left: -40rem;
+}
+.sidebar_menu.active {
+    margin-left: 0;
+}
