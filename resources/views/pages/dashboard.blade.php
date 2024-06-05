@@ -12,7 +12,7 @@
     @section('content1')
     <!-- <div class="balls w-16 h-16 z-50 rounded-[50%] fixed top-2 left-[-1rem] bg-zinc-950"></div> -->
     <div class="flex flex-col gap-10 lg:gap-[8rem]">
-        <div class="hero_dashboard font-semibold relative bg-transparent text-[12vw] mt-[-3rem] lg:mt-[-4rem] capitalize">
+        <div class="hero_dashboard font-semibold relative bg-transparent text-[12vw] mt-[-1.5rem] lg:mt-[-4rem] capitalize">
             <div class="shape_1 fixed z-[-9999]"></div>
             <div class="shape_2 fixed z-[-9999] right-20 top-52"></div>
             <h1 class="hello_firstname">Muhammad</h1>
