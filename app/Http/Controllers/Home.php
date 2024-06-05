@@ -10,7 +10,7 @@ class Home extends Controller
 {
     public function home()
     {
-        // dd(auth()->check());
+        // var_dump(auth()->check());
        
         return view('pages.home');
     }
