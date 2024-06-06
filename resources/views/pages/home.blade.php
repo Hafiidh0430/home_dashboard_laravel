@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <img src="" class="w-full h-[16rem] lg:h-full rounded-2xl bg-white">
+        <img src="https://dibimbing-cdn.sgp1.cdn.digitaloceanspaces.com/1686562353972-Dibimbing.id%20-%20UI_UX%20Designer%20Tugas,%20Tanggung%20jawab,%20dan%20Peran%20Pentingnya.jpg.webp" class="w-full h-[16rem] object-cover lg:h-full rounded-2xl bg-white">
         <div class="other flex flex-col gap-4 items-end justify-end">
             <div class="flex button">
                 <button class="bg-transparent border border-white text-white  px-5 py-2 rounded-full">See my work</button>
