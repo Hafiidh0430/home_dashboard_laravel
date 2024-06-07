@@ -42,7 +42,7 @@
             @yield('content3')
         </main>
         <footer class="mt-[3rem]">
-            <div class="w-full p-4 flex lg:flex-row flex-col md:items-center md:justify-between">
+            <div class="w-full p-4 flex lg:flex-row flex-col lg:gap-0 gap-6 md:items-center justify-between">
                 <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">Hafiidh™</a>. All Rights Reserved.
                 </span>
                 <ul class="flex items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 gap-6">

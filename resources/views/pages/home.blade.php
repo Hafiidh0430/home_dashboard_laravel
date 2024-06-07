@@ -36,7 +36,7 @@
         <img src="https://dibimbing-cdn.sgp1.cdn.digitaloceanspaces.com/1686562353972-Dibimbing.id%20-%20UI_UX%20Designer%20Tugas,%20Tanggung%20jawab,%20dan%20Peran%20Pentingnya.jpg.webp" class="w-full h-[16rem] object-cover lg:h-full rounded-2xl bg-white">
         <div class="other flex flex-col gap-4 items-end justify-end">
             <div class="flex button">
-                <button class="bg-transparent border border-white text-white  px-5 py-2 rounded-full">See my work</button>
+                <a href="#work" class="bg-transparent border border-white text-white  px-5 py-2 rounded-full">See my work</a>
                 <button class="bg-transparent border border-white rotate-45 px-[2px] text-white text-lg  rounded-[50%]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
                         <rect fill="none" />
@@ -51,7 +51,7 @@
     </div>
     @endsection
     @section('content3')
-    <div class="home_content w-full flex px-4 lg:px-12 items-center rounded-3xl flex-col gap-8">
+    <div id="work" class="home_content w-full flex py-3 px-4 lg:px-12 items-center rounded-3xl flex-col gap-8">
         <div class="lg:w-full flex lg:px-12 items-center rounded-3xl flex-col gap-8">
             <h3 class="title_habbit lg:leading-[3.5rem] font-bold text-[2rem] lg:text-5xl">
                 My Habbit is being<br><span class="lg:pl-40 font-light">━ My Experiences.</span>

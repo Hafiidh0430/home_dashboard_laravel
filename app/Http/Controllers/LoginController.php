@@ -11,9 +11,11 @@ use Illuminate\Support\Facades\Session as FacadesSession;
 class LoginController extends Controller
 {
     public function login () {
+        
         if (Auth::check()) {
             return back(); 
         }
+
         return view('auth.login');
     }
     public function userLogin(Request $request): RedirectResponse
@@ -24,7 +26,7 @@ class LoginController extends Controller
         ]);
  
         if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
+           
             return redirect()->to('home');
         }
         return redirect()->to('/login', 302);
