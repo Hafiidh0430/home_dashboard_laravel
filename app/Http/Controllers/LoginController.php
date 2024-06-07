@@ -11,6 +11,9 @@ use Illuminate\Support\Facades\Session as FacadesSession;
 class LoginController extends Controller
 {
     public function login () {
+        if (Auth::check()) {
+            return back(); 
+        }
         return view('auth.login');
     }
     public function userLogin(Request $request): RedirectResponse
