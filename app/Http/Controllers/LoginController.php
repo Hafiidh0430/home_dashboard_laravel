@@ -15,7 +15,7 @@ class LoginController extends Controller
         if (Auth::check()) {
             return back(); 
         }
-
+        
         return view('auth.login');
     }
     public function userLogin(Request $request): RedirectResponse
@@ -26,7 +26,7 @@ class LoginController extends Controller
         ]);
  
         if (Auth::attempt($credentials)) {
-           
+            $request->session()->regenerate();
             return redirect()->to('home');
         }
         return redirect()->to('/login', 302);
