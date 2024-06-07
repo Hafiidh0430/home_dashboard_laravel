@@ -56,7 +56,7 @@
             <h3 class="title_habbit lg:leading-[3.5rem] font-bold text-[2rem] lg:text-5xl">
                 My Habbit is being<br><span class="lg:pl-40 font-light">━ My Experiences.</span>
             </h3>
-            <div class="desc flex flex-col lg:flex-row gap-28 lg:items-center justify-between w-full">
+            <div class="desc flex flex-col lg:flex-row gap-8 lg:gap-28 lg:items-center justify-between w-full">
                 <p class="text-lg">I good to learn any the new things and try for make a better experience for users . I'm committed to creating engaging, user-focused designs, ensuring every interaction provides an empathetic interactive design, and fulfilling.</p>
                 <button class="bg-transparent border text-nowrap border-zinc-950 px-5 py-2 rounded-full"><a href="https://dribbble.com/apid077">See all work</a></button>
             </div>
